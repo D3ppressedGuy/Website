@@ -1,0 +1,11 @@
+
+.icon-attach:before { content: '\e800'; } /* '' */
+.icon-download:before { content: '\e801'; } /* '' */
+.icon-mail:before { content: '\e802'; } /* '' */
+.icon-user:before { content: '\e803'; } /* '' */
+.icon-desktop:before { content: '\f108'; } /* '' */
+.icon-mobile:before { content: '\f10b'; } /* '' */
+.icon-apple:before { content: '\f179'; } /* '' */
+.icon-windows:before { content: '\f17a'; } /* '' */
+.icon-android:before { content: '\f17b'; } /* '' */
+.icon-github-squared:before { content: '\f300'; } /* '' */

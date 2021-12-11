@@ -1,0 +1,16 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule kontakt contact.html
+RewriteRule gry games.html
+RewriteRule filmy videos.html
+RewriteRule apple apple/apple.html
+RewriteRule macos apple/macos.html
+RewriteRule ios apple/ios.html
+RewriteRule android android/android.html
+RewriteRule windows windows/windows.html
+RewriteRule index index.html

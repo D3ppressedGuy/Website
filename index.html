@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>D3ppressed_Guy - Strona Główna</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	
+	    <script src="jquery.scrollTo.min.js"></script>
+
+        <script>
+		
+            jQuery(function($)
+            {
+                //zresetuj scrolla
+                $.scrollTo(0);
+                
+                $('#link1').click(function() { $.scrollTo($('#middle'), 500); });
+            }
+            );
+        </script>
+    
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="topnav">
+                    <li><a href="index">D3ppressed_Guy</a></li>
+                    <li><a href="kontakt">KONTAKT</a></li>
+                    <li><a href="filmy">FILMY</a></li>
+                    <li><a href="gry">GRY</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <header class="home">
+                Uczeń, Developer Gier, Youtuber.     
+            </header>
+            <a class="mybutton" id="link1" href="#middle">Dowiedz Się Więcej.</a>
+        </section>
+        <section class="par" id="middle">
+            <header class="Hi">
+                Cześć!
+            </header>
+            <nav class="About">
+                Mam na imię Robert jestem 11 letnim programistą webowym/gier<br>
+                Inspiruję się robieniem gier od 4 lat (2017) od mojego brata ciotecznego<br>
+                Takżę od programisty gier Dani. <br>
+            </nav>
+            <ul>
+                <a class="mybutton" href="gry">Gry</a>
+                <a class="mybutton" href="filmy">Filmy</a>
+                <a class="mybutton" href="kontakt">Kontakt</a>
+            </ul>
+        </section>
+
+        <footer>2021 &copy; D3ppressed_Guy</footer>
+    </body>
+</html>

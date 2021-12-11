@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+body
+{
+    font-family: 'Lato', sans-serif;
+    background: #151D21;
+    background-image: url('../zdjęcia/bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #ffffff
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+a:hover {
+    color: #ff7a7a;
+}
+footer {
+    text-align: center;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+}
+li:first-child {
+    float: left; 
+    margin-left: 0px;
+}
+
+li {
+    display: inline-block;
+    padding-right: 7%;
+    margin: 10px 0 0 0;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-left: 60px;
+    float: right;
+}
+a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+section .mybuttong {
+    font-family: 'Roboto';
+    font-size: 60px;
+    color: #151D21;
+    background: #ff7a7a;
+    display: inline-flex;
+    padding: 6px;
+    margin-top: 151px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: none;
+    border-radius: 5px;
+}
+section .mybuttong:hover {
+    background: white;
+    font-size: 62px;
+    margin-top: 150px;
+}
+section .mybuttonge {
+    font-family: 'Roboto';
+    font-size: 60px;
+    color: #151D21;
+    background: #ff7a7a;
+    display: inline-flex;
+    padding: 6px;
+    margin-top: 3px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: none;
+    border-radius: 5px;
+}
+section .mybuttonge:hover {
+    background: white;
+    font-size: 62px;
+    margin-top: 3px;
+}
+section .mybutton {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #151D21;
+    background: #ff7a7a;
+    display: inline-flex;
+    padding: 6px;
+    margin-top: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: none;
+    border-radius: 5px;
+}
+section .mybutton:hover {
+    background: white;
+    font-size: 26px;
+    margin-top: 29px;
+}
+.Hi
+{
+    font-size: 80px;
+}
+.About
+{
+    font-size: 5;
+    text-align: center;
+}
+section nav {
+    font-size: 60px;
+    text-align: left;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+section {
+    text-align: center;
+    padding: 8%;
+}
+.home {
+    font-size: 55px;
+    margin-top: 220px;
+}
